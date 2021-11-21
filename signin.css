@@ -45,7 +45,7 @@ h1{
 label{
     display: block;
     color: rgb(73, 71, 71);
-    font-size: 15px;
+    font-size: 19px;
     margin: 10px 0;
     
 }
@@ -135,6 +135,7 @@ h1{
     width: 100%;
 Font-weight: bolder;
 Line-height: 0.7rem;
+Width: 100%;
 }
 
     .container2{
