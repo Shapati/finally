@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+nav{
+    background-color: none;
+    
+}
+
+#expand{
+    display: flex;
+    
+}
+
+
+#navbarSupportedContent{
+    justify-content: space-between;
+    
+}
+#navbarSupportedContent a{
+    text-decoration: none;
+    color: black;
+}
+#navbarSupportedContent button{
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+  
+
+}
+
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box1{
+    flex: 1;
+    height: 67vh;
+    margin-top: 10px;
+    border: 1px solid rgb(241, 237, 237);
+    border-radius: 5px;
+    padding: 40px;
+    width: 100%;
+}
+
+.box2{
+    flex: 1.7;
+    border: 1px solid rgb(241, 237, 237);
+    padding: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+   
+}
+.box2 img{
+    border-radius: 5px;
+    width: 100%;
+    image-resolution: 1080p;
+    
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    display: flex;
+    
+}
+.box3{
+    border: 1px solid rgb(241, 237, 237);
+    padding: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 59%;
+    margin-left: auto;
+    margin-right: 0;
+}
+.final{
+    margin-bottom: 20px;
+    border-bottom:  1px solid rgb(241, 237, 237);;
+    padding-bottom: 20px
+}
+h3{
+    margin-bottom: 15px;
+}
+.footer{
+    
+    margin-top:  20px; 
+     
+     
+ }
+
+
+
+
+.review{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+.footer{
+    
+    margin-top:  20px; 
+     
+     
+ }
+
+ @media (max-width: 1050px){
+
+    body{
+        width: 90%;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .box1{
+        flex: 1;
+        margin-left: 0;
+        border: 0;
+      
+    }
+    .box1 img{
+        margin-top: 10px;
+        border: 1px solid rgb(241, 237, 237);
+        border-radius: 5px;
+        padding: 40px;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        right: 0;
+        
+    }
+    .box2{
+        flex: 1;
+        border: 1px solid rgb(241, 237, 237);
+        padding: 40px;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 0px;
+       
+    }
+    .box2 img{
+        border-radius: 5px;
+        width: 100%;
+        
+        
+    }
+    .container2{
+        display: flex;
+       
+    }
+    .box4{
+        flex: -1;
+    
+    }
+    .box3{
+        flex: 2;
+        border: 1px solid rgb(241, 237, 237);
+        padding: 40px;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 0;
+        width: 100%;
+       
+        
+       
+       
+    }
+    .footer{
+    
+        margin-top:  20px; 
+        position: absolute;
+        top: 130%;
+         
+     }
+ }

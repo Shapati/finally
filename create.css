@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  
+}
+.container1{
+    flex: 2;
+    
+    max-width: 670px;
+    padding: 30px 80px;
+    
+
+}
+.container2{
+    flex: 1;
+}
+.listnavabar{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    
+}
+.listnavabar a{
+   
+    margin-top: 6px;
+    text-decoration: none;
+    color:rgb(73, 71, 71);
+    font-size: 15px;
+}
+h1{
+    margin-top: 90px;
+    width: 100%;
+}
+label{
+    display: block;
+    color: rgb(73, 71, 71);
+    font-size: 15px;
+    margin: 10px 0;
+    
+}
+input{
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    color: rgb(73, 71, 71)
+}
+button{
+    font-family: Poppins, sans-serif;
+    background-color: black;
+    border: 1px solid black;
+    padding: 0.6rem 1rem;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+   
+}
+button a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer{
+    margin-top: 20px;
+}
+.footer p{
+    font-size: 15px;
+}
+.footer a{
+    color: skyblue;
+}
+.container2{
+    background-color: rgb(228, 225, 225);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px ;
+    padding-right: 70px;
+}
+.container2 h2{
+    line-height: 2.5rem;
+}
+.flex{
+    margin-top: 20px;
+    display: flex;
+
+
+}
+.flex img{
+    margin-right: 10px;
+}
+span{
+    font-weight: bolder;
+}
+@media (max-width: 1000px){
+  
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .container1{
+        flex: 1;
+       
+        width: 100%;
+        padding: 10px 5px;
+        
+    
+    }
+    .container2{
+        flex: 1;
+        padding: 60px 20px;
+        width: 100%;
+    }
+}

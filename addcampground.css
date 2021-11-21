@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    max-width: 500px;
+    overflow: auto;
+ 
+
+}
+@media (max-width: 500px){
+    .container{
+        max-width: 95%;
+        margin: auto;
+        align-items: center;
+       
+        
+    }
+    
+
+    
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    position: relative;
+  
+}
+
+.navbar{
+    width: 100%;
+    overflow:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.navbar p{
+    color: rgb(73, 71, 71);
+    font-size: 13px;
+}
+.logo img{
+    margin-right: 5px;
+}
+
+
+
+.navbar-link a{
+    text-decoration: none;
+    color: black;
+  
+}
+
+
+.navbar-link button{
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#first{
+    margin-top: 6px;
+}
+@media (max-width: 500px){
+    .navbar{
+       width: 100%;
+        
+    }
+    
+
+    
+}
+
+
+.container2{
+    max-width: 350px;
+    margin: 2rem auto;
+    
+}
+.container2 h2{
+ width: 100%;
+}
+label{
+    display: block;
+    color: rgb(73, 71, 71);
+    font-size: 15px;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    color: rgb(73, 71, 71)
+}
+textarea{
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-family: Poppins, sans-serif;
+    color: rgb(73, 71, 71);
+    padding: 15px;
+    
+}
+button{
+    font-family: Poppins, sans-serif;
+    background-color: black;
+    border: 1px solid black;
+    padding: 0.6rem 1rem;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    color: white;
+   
+}
+#only{
+    height: 200px;
+    padding: 20px;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer{
+    width: 100%;
+    overflow:auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+   
+    margin-top: 30px;
+    
+    
+}

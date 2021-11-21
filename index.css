@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:ital,wght@0,100;1,300&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Poppins, sans-serif;
+   
+  
+}
+.container{
+     display: flex;
+    flex-wrap: wrap;
+}
+
+.container1{
+    flex: 1;
+    background-color: rgb(228, 225, 225);
+    padding-left: 90px;  
+}
+.logo{
+    margin-top: 30px;
+
+}
+h1{
+    font-size: 40px;
+    margin-top: 70px;
+    width: 100%;
+}
+p{
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(73, 71, 71);
+    width: 100%;
+}
+.first-p{
+   
+    margin: 15px 0;
+}
+.checbox{
+    width: 20px;
+}
+.first-list {
+   margin-bottom: 30px;
+   list-style: none;
+}
+.first-list li{
+    display: flex;
+    margin: 12px 0;
+}
+.first-list li p{
+    
+    margin-left: 10px;
+}
+.campground-link{
+    border: none;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    
+    padding: 0.8rem 1.2rem;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.partner{
+    margin-top: 40px;
+}
+.last-list{
+    display: flex;
+    list-style: none;
+}
+.container2{
+    background: url('./Assets/hero.jpg') no-repeat center center/cover;
+    flex: 1;
+    height: 100vh;
+}
+
+@media screen and (max-width: 1100px  ){
+    body{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        
+    }
+    .container1{
+        height: 50vh;
+        position: absolute;
+        padding: 0;
+        top: 100%;
+        width: 90%;
+        
+        background-color:  white;
+        padding-top: 0px;
+        
+        
+    }
+    h1{
+        margin-left: 20px;
+    }
+    .container1 p{
+        font-size: 16px;
+        margin-left: 20px;
+        
+    }
+    .container1 .checbox{
+        margin-left: 20px;
+    }
+    .campground-link{
+        margin-left: 20px;
+    }
+    .logo img{
+        margin-bottom: 10px;
+        position: absolute;
+        bottom: 200%;
+        
+
+    }
+    .container2{
+      
+        margin-top: 50px;
+        height: 50vh;
+        background: url('./Assets/Hero\ Image\ \(Tablet\ and\ Mobile\).jpg') no-repeat center center/cover ;
+        
+        width: 100%;
+}
+
+}
+
+
