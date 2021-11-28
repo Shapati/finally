@@ -50,7 +50,7 @@ body{
 label{
     display: block;
     color: rgb(73, 71, 71);
-    font-size: 15px;
+    font-size: 19px;
     margin: 10px 0;
     
 }
@@ -58,7 +58,7 @@ input{
     width: 100%;
     background-color: rgb(228, 225, 225);
     border: none;
-    padding: 15px;
+    padding: 20px 10px;
     border-radius: 5px;
     outline: none;
     font-family: Poppins, sans-serif;
