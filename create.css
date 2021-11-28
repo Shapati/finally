@@ -38,10 +38,15 @@ body{
     color:rgb(73, 71, 71);
     font-size: 15px;
 }
-h1{
-    margin-top: 90px;
+
+   h1{
+    margin-top: 30px;
     width: 100%;
+   Font-weight: bolder;
+
 }
+
+
 label{
     display: block;
     color: rgb(73, 71, 71);
